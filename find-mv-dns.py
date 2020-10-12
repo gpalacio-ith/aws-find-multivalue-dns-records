@@ -71,7 +71,7 @@ def find_all_mv_records(zone_id, session):
             results.append(each_record)
     return(results)
 
-# main
+# main code
 def main():
     # creates aws api sessions params
     session = boto3.session.Session(profile_name='aws-prd')
